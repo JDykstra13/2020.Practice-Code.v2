@@ -18,11 +18,20 @@ package frc.robot;
 public final class Constants {
 
     public final class DriveConstants{
-        public static final int leftBackMotor = 0;
+        public static final int leftBackMotor = 1;
         public static final int leftFrontMotor = 0;
         public static final int leftTopMotor = 0;
         public static final int rightBackMotor = 0;
         public static final int rightFrontMotor = 0;
         public static final int rightTopMotor = 0;
+
+        public static final int rightShooter = 0;
+        public static final int leftShooter = 0;
     }
-}
+
+    public static final class OIConstants {
+        public static final int kDriverControllerPort = 1;
+      }
+
+    }
+
